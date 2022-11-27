@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40206252932D49A006BD2DA /* SecretSettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40206242932D49A006BD2DA /* SecretSettingsApp.swift */; };
+		F40206272932D49A006BD2DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40206262932D49A006BD2DA /* ContentView.swift */; };
+		F40206292932D49B006BD2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40206282932D49B006BD2DA /* Assets.xcassets */; };
+		F402062C2932D49B006BD2DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F402062B2932D49B006BD2DA /* Preview Assets.xcassets */; };
+		F40206372932D49B006BD2DA /* SecretSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40206362932D49B006BD2DA /* SecretSettingsTests.swift */; };
+		F40206412932D49B006BD2DA /* SecretSettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40206402932D49B006BD2DA /* SecretSettingsUITests.swift */; };
+		F40206432932D49B006BD2DA /* SecretSettingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40206422932D49B006BD2DA /* SecretSettingsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40206332932D49B006BD2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40206192932D49A006BD2DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40206202932D49A006BD2DA;
+			remoteInfo = SecretSettings;
+		};
+		F402063D2932D49B006BD2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40206192932D49A006BD2DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40206202932D49A006BD2DA;
+			remoteInfo = SecretSettings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40206212932D49A006BD2DA /* SecretSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40206242932D49A006BD2DA /* SecretSettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSettingsApp.swift; sourceTree = "<group>"; };
+		F40206262932D49A006BD2DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F40206282932D49B006BD2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F402062B2932D49B006BD2DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F402062D2932D49B006BD2DA /* SecretSettings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecretSettings.entitlements; sourceTree = "<group>"; };
+		F40206322932D49B006BD2DA /* SecretSettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretSettingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40206362932D49B006BD2DA /* SecretSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSettingsTests.swift; sourceTree = "<group>"; };
+		F402063C2932D49B006BD2DA /* SecretSettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretSettingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40206402932D49B006BD2DA /* SecretSettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSettingsUITests.swift; sourceTree = "<group>"; };
+		F40206422932D49B006BD2DA /* SecretSettingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSettingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F402061E2932D49A006BD2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F402062F2932D49B006BD2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40206392932D49B006BD2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40206182932D49A006BD2DA = {
+			isa = PBXGroup;
+			children = (
+				F40206232932D49A006BD2DA /* SecretSettings */,
+				F40206352932D49B006BD2DA /* SecretSettingsTests */,
+				F402063F2932D49B006BD2DA /* SecretSettingsUITests */,
+				F40206222932D49A006BD2DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40206222932D49A006BD2DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40206212932D49A006BD2DA /* SecretSettings.app */,
+				F40206322932D49B006BD2DA /* SecretSettingsTests.xctest */,
+				F402063C2932D49B006BD2DA /* SecretSettingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40206232932D49A006BD2DA /* SecretSettings */ = {
+			isa = PBXGroup;
+			children = (
+				F40206242932D49A006BD2DA /* SecretSettingsApp.swift */,
+				F40206262932D49A006BD2DA /* ContentView.swift */,
+				F40206282932D49B006BD2DA /* Assets.xcassets */,
+				F402062D2932D49B006BD2DA /* SecretSettings.entitlements */,
+				F402062A2932D49B006BD2DA /* Preview Content */,
+			);
+			path = SecretSettings;
+			sourceTree = "<group>";
+		};
+		F402062A2932D49B006BD2DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F402062B2932D49B006BD2DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F40206352932D49B006BD2DA /* SecretSettingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40206362932D49B006BD2DA /* SecretSettingsTests.swift */,
+			);
+			path = SecretSettingsTests;
+			sourceTree = "<group>";
+		};
+		F402063F2932D49B006BD2DA /* SecretSettingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40206402932D49B006BD2DA /* SecretSettingsUITests.swift */,
+				F40206422932D49B006BD2DA /* SecretSettingsUITestsLaunchTests.swift */,
+			);
+			path = SecretSettingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40206202932D49A006BD2DA /* SecretSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40206462932D49B006BD2DA /* Build configuration list for PBXNativeTarget "SecretSettings" */;
+			buildPhases = (
+				F402061D2932D49A006BD2DA /* Sources */,
+				F402061E2932D49A006BD2DA /* Frameworks */,
+				F402061F2932D49A006BD2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretSettings;
+			productName = SecretSettings;
+			productReference = F40206212932D49A006BD2DA /* SecretSettings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40206312932D49B006BD2DA /* SecretSettingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40206492932D49B006BD2DA /* Build configuration list for PBXNativeTarget "SecretSettingsTests" */;
+			buildPhases = (
+				F402062E2932D49B006BD2DA /* Sources */,
+				F402062F2932D49B006BD2DA /* Frameworks */,
+				F40206302932D49B006BD2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40206342932D49B006BD2DA /* PBXTargetDependency */,
+			);
+			name = SecretSettingsTests;
+			productName = SecretSettingsTests;
+			productReference = F40206322932D49B006BD2DA /* SecretSettingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F402063B2932D49B006BD2DA /* SecretSettingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F402064C2932D49B006BD2DA /* Build configuration list for PBXNativeTarget "SecretSettingsUITests" */;
+			buildPhases = (
+				F40206382932D49B006BD2DA /* Sources */,
+				F40206392932D49B006BD2DA /* Frameworks */,
+				F402063A2932D49B006BD2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F402063E2932D49B006BD2DA /* PBXTargetDependency */,
+			);
+			name = SecretSettingsUITests;
+			productName = SecretSettingsUITests;
+			productReference = F402063C2932D49B006BD2DA /* SecretSettingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40206192932D49A006BD2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F40206202932D49A006BD2DA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F40206312932D49B006BD2DA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F40206202932D49A006BD2DA;
+					};
+					F402063B2932D49B006BD2DA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F40206202932D49A006BD2DA;
+					};
+				};
+			};
+			buildConfigurationList = F402061C2932D49A006BD2DA /* Build configuration list for PBXProject "SecretSettings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40206182932D49A006BD2DA;
+			productRefGroup = F40206222932D49A006BD2DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40206202932D49A006BD2DA /* SecretSettings */,
+				F40206312932D49B006BD2DA /* SecretSettingsTests */,
+				F402063B2932D49B006BD2DA /* SecretSettingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F402061F2932D49A006BD2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F402062C2932D49B006BD2DA /* Preview Assets.xcassets in Resources */,
+				F40206292932D49B006BD2DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40206302932D49B006BD2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F402063A2932D49B006BD2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F402061D2932D49A006BD2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40206272932D49A006BD2DA /* ContentView.swift in Sources */,
+				F40206252932D49A006BD2DA /* SecretSettingsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F402062E2932D49B006BD2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40206372932D49B006BD2DA /* SecretSettingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40206382932D49B006BD2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40206412932D49B006BD2DA /* SecretSettingsUITests.swift in Sources */,
+				F40206432932D49B006BD2DA /* SecretSettingsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40206342932D49B006BD2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40206202932D49A006BD2DA /* SecretSettings */;
+			targetProxy = F40206332932D49B006BD2DA /* PBXContainerItemProxy */;
+		};
+		F402063E2932D49B006BD2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40206202932D49A006BD2DA /* SecretSettings */;
+			targetProxy = F402063D2932D49B006BD2DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F40206442932D49B006BD2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40206452932D49B006BD2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F40206472932D49B006BD2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecretSettings/SecretSettings.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretSettings/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.similly.SecretSettings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F40206482932D49B006BD2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecretSettings/SecretSettings.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretSettings/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.similly.SecretSettings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F402064A2932D49B006BD2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.similly.SecretSettingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretSettings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecretSettings";
+			};
+			name = Debug;
+		};
+		F402064B2932D49B006BD2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.similly.SecretSettingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretSettings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecretSettings";
+			};
+			name = Release;
+		};
+		F402064D2932D49B006BD2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.similly.SecretSettingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecretSettings;
+			};
+			name = Debug;
+		};
+		F402064E2932D49B006BD2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.similly.SecretSettingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecretSettings;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F402061C2932D49A006BD2DA /* Build configuration list for PBXProject "SecretSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40206442932D49B006BD2DA /* Debug */,
+				F40206452932D49B006BD2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40206462932D49B006BD2DA /* Build configuration list for PBXNativeTarget "SecretSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40206472932D49B006BD2DA /* Debug */,
+				F40206482932D49B006BD2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40206492932D49B006BD2DA /* Build configuration list for PBXNativeTarget "SecretSettingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F402064A2932D49B006BD2DA /* Debug */,
+				F402064B2932D49B006BD2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F402064C2932D49B006BD2DA /* Build configuration list for PBXNativeTarget "SecretSettingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F402064D2932D49B006BD2DA /* Debug */,
+				F402064E2932D49B006BD2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40206192932D49A006BD2DA /* Project object */;
+}
