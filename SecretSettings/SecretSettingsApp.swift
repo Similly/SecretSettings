@@ -2,7 +2,7 @@
 //  SecretSettingsApp.swift
 //  SecretSettings
 //
-//  Created by Simon Wand on 27.11.22.
+//  Created by Simon Wand on 27.11.22. :)
 //
 
 import SwiftUI
